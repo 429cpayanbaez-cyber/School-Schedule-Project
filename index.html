@@ -1,46 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <head> <meta charset="UTF-8"> <link rel="stylesheet" href="./style.css"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>School Schedule</title> <style> table, th, td { border: 1px solid black; border-collapse: collapse; } </style> </head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            min-width: 100px;
+            width: max-content;
+
+        }
+    </style>
 </head>
+
 <body>
     <!-- Table 1 -->
-     <table>
+    <table>
         <tr>
-            <th> <center>Day A</center></th>
-            <th> <center></center>Day B</center></th>
-            <th> <center>Day C</center></th>
-            <th> <center>Day D</center></th>
-            <th> <center>Day E</center></th>
-            <th> <center>Day F</center></th>
-            <th> <center></center>Day G</center></th>
-        </tr>
-     </table>
-     <table>
-        <tr>
-            <td style="9px"> Block 1 <br> 7:30AM 8:37AM </td>
-            <td>World History<br> Period 1 <br> Room A105</td>
-        </tr>
-        <tr>
-            <td style="9px">Block 2 <br> 8:42AM 9:49AM</td>
-            <td>Spanish 3<br> Period 2 <br> Room A114</td>
-        </tr>
-        <tr>
-            <td style="9px">Block 3 <br>9:54AM 11:01AM</td>
-            <td>English 2<br> Period 3 <br> Room A10</td>
-        </tr>
-        <tr>
-            <td style="9px">Lunch <br>11:06AM 11:41AM</td>
-            <td><center>Lunch</center></td>
+            <th style="width: 90px;">Class Time</th>
+            <th style="width: 90px;">
+               A Day 
+            </th>
+            <th style="width: 90px;">
+               B Day 
+            </th>
+            <th style="width: 90px;">
+             C Day 
+            </th>
+            <th style="width: 90px;">
+               D Day
+            </th>
+            <th style="width: 90px;">
+               E Day 
+            </th>
+            <th style="width: 90px;">
+                F Day
+            </th>
+            <th style="width: 90px;">
+                G Day
+            </th>
         </tr>
         <tr>
-            <td style="9px">Block 4 <br>11:47AM 12:54PM</td>
-            <td>Chemistry<br> Period 4 <br> Room D106</td>
+            <th style="8px"> Block 1 <br> 7:30AM 8:37AM </th>
+            <td style="background-color:powderblue;">World History<br> Period 1 <br> A105</td>
+            <td style="background-color:limegreen;">Honors Web Design <br> Period 4 <br> Room C104</td>
+            <td style="background-color:lightcoral;">English 2<br> Period 3 <br> Room A10</td>
+            <td style="background-color:lightyellow;">Spanish 3<br> Period 2 <br> Room A114</td>
+            <td style="background-color:powderblue;">World History<br> Period 1 <br> Room A105</td>
+            <td style="background-color:limegreen;">Honors Web Design <br> Period 4 <br> Room C104</td>
+            <td style="background-color:lightcoral;">English 2<br> Period 3 <br> Room A10</td>
         </tr>
         <tr>
-            <td style="9px">Block 5 <br>12:59PM 2:06PM</td>
-            <td>Gym <br>Period 6 <br>Room Gym</td>
+            <th style="9px">Block 2 <br> 8:42AM 9:49AM</th>
+            <td style="background-color:lightyellow ;">Spanish 3<br> Period 2 <br> Room A114</td>
+            <td style="background-color:powderblue;">World History<br> Period 1 <br> Room A105</td>
+            <td style="background-color:limegreen;">Honors Web Design <br> Period 4 <br> Room C104</td>
+            <td style="background-color:lightcoral;">English 2<br> Period 3 <br> Room A10</td>
+            <td style="background-color:lightyellow;">Spanish 3<br> Period 2 <br> Room A114</td>
+            <td style="background-color:powderblue;">World History<br> Period 1 <br> Room A105</td>
+            <td style="background-color:limegreen;">Honors Web Design <br> Period 4 <br> Room C104</td>
+
         </tr>
-     </table>
+        <tr>
+            <th style="9px">Block 3 <br>9:54AM 11:01AM</th>
+            <td style="background-color:lightcoral;">English 2<br> Period 3 <br> Room A10</td>
+            <td style="background-color:lightyellow;">Spanish 3<br> Period 2 <br> Room A114</td>
+            <td style="background-color:powderblue;">World History<br> Period 1 <br> Room A105</td>
+            <td style="background-color:limegreen;">Honors Web Design <br> Period 4 <br> Room C104</td>
+            <td style="background-color:lightcoral;">English 2<br> Period 3 <br> Room A10</td>
+            <td style="background-color:lightyellow;">Spanish 3<br> Period 2 <br> Room A114</td>
+            <td style="background-color:darkorchid;">Algebra 1<br> Period 7<br> Room B210</td>
+        </tr>
+        <tr>
+            <th style="9px">Lunch <br>11:06AM 11:41AM</th>
+            <td colspan="7" rowspan="1" style="background-color:lightgray; text-align:center;">
+              Lunch
+            </td>
+
+        </tr>
+        <tr>
+            <th style="9px">Block 4 <br>11:47AM 12:54PM</th>
+            <td style="background-color:lightpink;">Chemistry<br> Period 4 <br> Room D106</td>
+            <td style="background-color:darkorchid;">Algebra 1<br> Period 7<br> Room B210</td>
+            <td style="background-color:rgb(178, 103, 32);">Gym <br>Period 6 <br>Room Gym</td>
+            <td style="background-color:lightpink;">Chemistry<br> Period 4 <br> Room D106</td>
+             <td style="background-color:darkorchid;">Algebra 1<br> Period 7<br> Room B210</td>
+             <td style="background-color:rgb(178, 103, 32);">Gym <br>Period 6 <br>Room Gym</td>
+              <td style="background-color:lightpink;">Chemistry<br> Period 4 <br> Room D106</td>
+
+
+
+
+        </tr>
+        <tr>
+            <th style="9px">Block 5 <br>12:59PM 2:06PM</th>
+            <td style="background-color:rgb(178, 103, 32);">Gym <br>Period 6 <br>Room Gym</td>
+            <td style="background-color:lightpink;">Chemistry<br> Period 4 <br> Room D106</td>
+            <td style="background-color:lightgray;">Algebra 1<br> Period 7<br> Room B210</td>
+             <td style="background-color:rgb(178, 103, 32);">Gym <br>Period 6 <br>Room Gym</td>
+             <td style="background-color:lightpink;">Chemistry<br> Period 4 <br> Room D106</td>
+             <td style="background-color:darkorchid;">Algebra 1<br> Period 7<br> Room B210</td>
+             <td style="background-color:rgb(178, 103, 32);">Gym <br>Period 6 <br>Room Gym</td>
+
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table style="display: inline-block; margin-top: 10px;">
+        <tr>
+        <th colspan="3" rowspan="1" style="background-color:lightblue;">Half Day Schedule</th>
+        </tr>
+        <tr>
+        <th style="background-color:lightslategrey;">Block 1</th>
+        <td>7:30 AM</td>
+        <td>8:20 AM</td>
+        </tr>
+        <tr>
+        <th style="background-color:lightslategrey;">Block 2</th>
+        <td>8:25 AM</td>
+        <td>9:15 AM</td>
+        </tr>
+        <tr>
+        <th style="background-color:lightslategrey;">Block 3</th>
+        <td>9:20 AM</td>
+        <td>10:10 AM</td>
+        </tr>
+        <tr>
+        <th style="background-color:lightslategrey;">Block 4</th>
+        <td>10:15 AM</td>
+        <td>11:05 AM</td>
+        </tr>
+        <tr>
+            <th style="background-color:lightslategrey;">Block 5</th>
+            <td>12:59 PM</td>
+            <td>2:06 PM</td>
+        </tr>
+    </table>
+    <table style="display: inline-block; margin-top: 10px;">
+        <tr>
+            <th colspan="3" rowspan="1" style="background-color:lightblue;">90 Min Delay Schedule</th>
+        </tr>
+        <tr>
+            <th style="background-color:lightslategrey;">Block 1</th>
+            <td>9:00 AM</td>
+            <td>9:50 AM</td>
+        </tr>
+        <tr>
+            <th style="background-color:lightslategrey;">Block 2</th>
+            <td>9:55 AM</td>
+            <td>10:45 AM</td>
+        </tr>
+        <tr>
+            <th style="background-color:lightslategrey;">Block 3</th>
+            <td>10:50 AM</td>
+            <td>11:40 AM</td>
+        </tr>
+        <tr>
+            <th  colspan="3" rowspan="1" style="background-color:lightgrey;">Lunch</th>
+        </tr>
+        <tr>
+            <th style="background-color:lightslategrey;">Block 4</th>
+            <td>12:21 PM</td>
+            <td>1:11 PM</td>
+        </tr>
+        <tr>
+            <th style="background-color:lightslategrey;">Block 5</th>
+            <td>1:16 PM</td>
+            <td>2:06 PM</td>
+        </tr>
+    </table>
 </body>
+
 </html>
